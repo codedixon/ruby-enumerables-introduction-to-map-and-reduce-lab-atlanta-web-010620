@@ -45,7 +45,7 @@ def reduce_to_all_true(source_array)
   array_value = true
   
   while i <= source_array.length
-  if source_array[i] = false
+  if source_array[i] == false
   array_value = false
     end
     puts array_value
